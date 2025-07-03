@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-1
+  description: API that displays the time
+  annotations:
+    github.com/project-slug: qburst-praven/test-1
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: devops
+  lifecycle: experimental
